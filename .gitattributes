@@ -1,6 +1,7 @@
 ###############################################################################
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
+# Set text files to use LF endings in the repository
 * text=auto
 
 ###############################################################################
@@ -61,3 +62,8 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+# Force binary files to use no newline normalization
+*.png binary
+*.jpg binary
+*.prefab binary
+*.mat binary
